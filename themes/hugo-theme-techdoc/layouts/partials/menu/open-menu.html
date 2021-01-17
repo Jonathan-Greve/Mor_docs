@@ -1,7 +1,6 @@
 {{$currentNode := .}}
 <nav class="open-menu">
 <ul>
-<li class="{{ if .IsHome }}active{{ end }}"><a href="{{ .Site.BaseURL }}">Overblik</a></li>
 {{- if eq .Site.Params.ordersectionsby "title" -}}
   {{- range .Site.Home.Sections.ByTitle -}}
 {{template "open-menu" dict "sect" . "currentnode" $currentNode}}
