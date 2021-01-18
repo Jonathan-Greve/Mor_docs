@@ -2,7 +2,7 @@ baseURL = "https://krestine.greve.dev"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Dansk Erhverv"
+title = "Branchekode"
 theme = "hugo-theme-techdoc"
 
 hasCJKLanguage = true
@@ -15,7 +15,7 @@ enableMissingTranslationPlaceholders = false
 [params]
 
     # Source Code repository section
-    description = "Vejledning til håndtering af fødevarer for Netto"
+    description = "Vejledninger til håndtering af fødevarer"
     #github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
     version = "1.3.3.7"
 
